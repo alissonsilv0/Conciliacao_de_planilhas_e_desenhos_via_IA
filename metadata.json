@@ -1,5 +1,5 @@
 {
-  "name": "WS Smart Jobbook Validator",
+  "name": "WS PipeMatch",
   "description": "Automatically compare technical drawing PDFs with official Jobbooks for Wilson Sons.",
   "requestFramePermissions": [],
   "majorCapabilities": [

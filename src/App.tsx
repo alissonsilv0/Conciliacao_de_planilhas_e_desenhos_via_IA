@@ -20,7 +20,7 @@ export default function App() {
   const [history, setHistory] = useState<HistoryRecord[]>([]);
 
   useEffect(() => {
-    const saved = localStorage.getItem('ws_smart_jobbook_history');
+    const saved = localStorage.getItem('ws_pipematch_history');
     if (saved) {
       try {
         setHistory(JSON.parse(saved));
@@ -33,12 +33,12 @@ export default function App() {
   const saveToHistory = (record: HistoryRecord) => {
     const newHistory = [record, ...history];
     setHistory(newHistory);
-    localStorage.setItem('ws_smart_jobbook_history', JSON.stringify(newHistory));
+    localStorage.setItem('ws_pipematch_history', JSON.stringify(newHistory));
   };
 
   const clearHistory = () => {
     setHistory([]);
-    localStorage.removeItem('ws_smart_jobbook_history');
+    localStorage.removeItem('ws_pipematch_history');
   };
 
   const handleAnalyze = async (file: File) => {

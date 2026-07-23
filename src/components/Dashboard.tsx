@@ -108,12 +108,12 @@ export function Dashboard({ data }: DashboardProps) {
     }
 
     // Exportar
-    XLSX.writeFile(wb, "resultado_validacao_jobbook.xlsx");
+    XLSX.writeFile(wb, "resultado_validacao_pipematch.xlsx");
   };
 
   const handlePrint = useReactToPrint({
     contentRef: printRef,
-    documentTitle: 'WS_Smart_Jobbook_Relatorio',
+    documentTitle: 'WS_PipeMatch_Relatorio',
     onBeforePrint: () => {
       setIsPrinting(true);
       return Promise.resolve();

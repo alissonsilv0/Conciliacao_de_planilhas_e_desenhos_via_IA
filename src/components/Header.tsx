@@ -11,7 +11,7 @@ export function Header() {
         <div className="hidden sm:block h-8 w-px bg-border" />
         <div>
           <h2 className="text-xl font-bold text-gray-900 dark:text-white flex items-center gap-2 transition-colors">
-            WS Smart Jobbook Validator
+            WS PipeMatch
           </h2>
           <p className="text-xs text-gray-500 dark:text-gray-400 transition-colors">Validação automatizada de desenhos técnicos comparados ao Jobbook oficial Wilson Sons</p>
         </div>

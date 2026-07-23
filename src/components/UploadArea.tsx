@@ -52,7 +52,7 @@ export function UploadArea({ onAnalyze }: UploadAreaProps) {
         <div className="flex justify-center mb-4">
           <WilsonSonsLogo variant="full" textColor="dark" size="lg" />
         </div>
-        <h3 className="text-2xl font-bold text-gray-900 mb-2">WS Smart Jobbook Validator</h3>
+        <h3 className="text-2xl font-bold text-gray-900 mb-2">WS PipeMatch</h3>
         <p className="text-gray-500 mb-8">Selecione o PDF do desenho técnico para iniciar a validação automatizada com o Jobbook oficial da Wilson Sons.</p>
         
         <div 

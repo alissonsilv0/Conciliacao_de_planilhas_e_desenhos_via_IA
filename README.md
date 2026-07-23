@@ -1,4 +1,4 @@
-# 🚢 AI-Powered BOM Reconciliation
+# 🚢 WS PipeMatch
 ## Desafio Final 1 — Power Developers | Kodie Academy
 
 [![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)]()
@@ -77,4 +77,4 @@ O fluxo de automação foi estruturado utilizando exatamente **6 módulos no Mak
 
 ## 👤 Autor
 
-* **Professor Leonardo** * *Kodie Academy — Power Developers*
+* **Alisson Silva** * *Kodie Academy — Power Developers*

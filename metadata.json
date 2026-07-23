@@ -1,0 +1,8 @@
+{
+  "name": "WS Smart Jobbook Validator",
+  "description": "Automatically compare technical drawing PDFs with official Jobbooks for Wilson Sons.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
